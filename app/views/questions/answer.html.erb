@@ -1,0 +1,18 @@
+<h1 class="m-3">Stupid Coaching</h1>
+<div class="col-6 m-3 border-start border-4">
+  <div class="card-body">
+<h3><%= @question %></h3>
+<p> - You</p>
+  </div>
+</div>
+
+<div class="col-6 m-3 border-start border-4 bg-light">
+  <div class="card-body">
+<h3><%= @coachanswer %></h3>
+<p> - Your coach</p>
+  </div>
+
+</div>
+<p class="m-3">
+<%= link_to 'Ask a new question', ask_path %>
+</p>
